@@ -225,7 +225,7 @@ flex-direction: column;
 
 .content{
 font-family: Montserrat;
-width: 53rem;
+width: 47rem;
 margin-top: 2rem;
 font-size: 1.3rem;
 font-style: normal;
@@ -234,7 +234,9 @@ line-height: 2.125rem; /* 136% */
 }
 
 .head{
+display: flex;
 font-size: 3.49281rem;
+gap: 5rem;
 font-family: Poppins;
 font-style: normal;
 font-weight: 700;
@@ -242,6 +244,8 @@ line-height: 5.8rem;
  
 span{
    font-size: 10rem;
+   /* letter-spacing: -0.5rem;
+   margin-left: 1rem; */
 }
 
 }
